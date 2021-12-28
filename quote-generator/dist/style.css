@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+h1{
+  text-align:center;
+  margin-top:100px;
+  color:red;
+  margin-bottom:auto;
+}
+body {
+  background-color:#3EE0D0;
+}
+#quote-box{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  width: 400px;
+  background-color: #ffffff;
+  position: relative;
+  left:37%;
+  border-radius: 8px;
+  text-align: center;
+  min-height: 100px;
+  padding: 10px 40px;
+  box-shadow: 0 20px 65px rgba(87, 11, 16, 0.5);
+}
+#text , #author{
+  margin:auto;
+  padding:10px;
+}
+#new-quote{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #023b80;
+  border: none;
+  padding: 15px 45px;
+  border-radius: 5px;
+}
+footer{
+  text-align:center;
+  margin:auto;
+}
